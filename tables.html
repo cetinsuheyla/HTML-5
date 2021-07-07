@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tables</title>
+    <script src="https://kit.fontawesome.com/c6cc1ba62c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Tables</h1>
+      <p>A table is an arrangement of data in rows and columns, or possibly in a more complex structure. Tables are widely used in communication, research, and data analysis. Tables appear in print media, handwritten notes, computer software, architectural ornamentation, traffic signs, and many other places.</p>
+
+    </header>
+    <main>
+      <section>
+        <h1><u><i class="fas fa-hand-point-right"></i> Table with table headings and a caption.</u></h1>
+
+      <table>
+        <caption>SKILLS</caption>
+        <tr>
+          <th>Technical Skills</th>
+          <th>Interpersonal Skills</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Cooperation</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Listening</td>
+        </tr>
+        <tr>
+          <td>JS</td>
+          <td>Communication</td>
+        </tr>
+      </table>
+
+    </section>
+
+    <section>
+      <h1><u><i class="fas fa-hand-point-right"></i> Add border with border property, use rowspan or colspan properties in order to cover more than 1 rows or columns</u></h1>
+      <p><i class="fas fa-exclamation-circle"></i> Keep in mind that you should not style your elements through HTML in order to differenciate content from styling.</p>
+      <table border="1">
+        <caption>CETIN PRESCHOOL</caption>
+        <tr>
+          <th>Child's name</th>
+          <th>Parent's name</th>
+        </tr>
+        <tr>
+          <td>Selim</td>
+          <td rowspan="2">Suheyla</td>
+        </tr>
+        <tr>
+          <td>Ibrahim</td>
+        </tr>
+        <tr>
+          <td>Zeyneb</td>
+          <td rowspan="2">Nuriye</td>
+        </tr>
+        <tr>
+          <td>Sevde</td>
+        </tr>
+        <tr>
+          <td>Azra</td>
+          <td rowspan="2">Esma</td>
+        </tr>
+        <tr>
+          <td>Bahar</td>
+        </tr>
+
+      </table>
+
+    </section>
+    <br>
+    <br>
+    <section>
+      <table border="2">
+        <caption>PRODUCTS</caption>
+        <tr>
+          <th>Product name</th>
+          <th colspan="2">In stock</th>
+        </tr>
+        <tr>
+          <td>Notebook</td>
+          <td><i class="fas fa-check"></i></td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td>Pencil</td>
+          <td><i class="fas fa-check"></i></td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>Study book</td>
+          <td><i class="fas fa-times"></i></td>
+          <td>0</td>
+        </tr>
+      </table>
+    </section>
+    </main>
+    <br>
+    <br>
+    <p>Click <a href="tags.html">here</a> to see more tags' usages.</p>
+    <br>
+    <br>
+    <br>
+    <footer>
+      <small>&copy; Suheyla Cetin 2021</small>
+    </footer>
+  </body>
+</html>
